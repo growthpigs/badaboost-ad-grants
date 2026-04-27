@@ -178,16 +178,15 @@ badaboost-ad-grants/
 
 ## GitHub Is the Source of Truth
 
-All project management lives in GitHub:
+All project management lives in GitHub. Per [PAI governance](https://github.com/growthpigs/lifemodo/issues/561), the canonical pattern is one pinned `[PROJECT INDEX]` master TOC issue (not separate Activity Log + Work Ledger) — see [war-room exemplar #1364](https://github.com/growthpigs/alpha-war-room/issues/1364).
 
 | What | Where |
 |------|-------|
 | Admin Documents (18) | GitHub issues in `Admin Documents` milestone |
-| Activity Log | Pinned issue — updated every session |
-| Work Ledger | Pinned issue — DU tracking |
-| Phase Master Index | Pinned issue — roadmap and priorities |
-| Feature specs | GitHub issues with `spec` label |
-| Bug reports | GitHub issues with `bug` label |
+| Master Index / Roadmap | Pinned `[PROJECT INDEX]` issue (or master umbrella) |
+| Feature specs | GitHub issues with `[FSD]` title prefix |
+| Bug reports | GitHub issues with `[BUG]` title prefix or `bug` label |
+| Cross-project governance | [growthpigs/lifemodo#561](https://github.com/growthpigs/lifemodo/issues/561) |
 
 **Quick access:**
 ```bash
