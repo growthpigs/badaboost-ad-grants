@@ -242,25 +242,7 @@ MINE → SCOUT → ASSAY → CRUCIBLE → PLAN → HAMMER → TEMPER → AUTORES
 - **Don't commit secrets.** No `.env`, no API keys, no credentials in git.
 - **Don't put client work here.** Client deliverables go in `growthpigs/ad-grant-clients`.
 
-## Reply Footer (MANDATORY — Every Task Completion)
+## Reply Footer — deferred to PAI global
 
-Every reply at task completion MUST end with a `---` separator followed by this 7-line status footer:
+Not defined here. The shape is owned by PAI global (`~/.claude/CLAUDE.md`, section "Reply footer — every reply, no exceptions") — four lengths: MINI, MEDIUM, REPORT, FINISH. Nothing mechanically enforces the shape (the v6 guard hooks are gone). A copy inlined here is a copy that drifts (pai-system#577).
 
-```
----
-🔧 CC Engaged: https://github.com/growthpigs/badaboost-ad-grants/issues/NNN | Status: XX% complete
-📋 CC Queue: [queued items waiting their turn]
-💭 Open Loops: [firehose ideas not yet queued as tasks]
-📅 Coming: [planned items, upcoming sprints]
-🔌 MCPs: Chi-GW [✅/❌] | Chrome [✅/❌] | Agent Browser [✅/❌]
-✅ X/Y complete | XX% confident ([context note])
-📊 DD.MM HH:MM | ~Xk tokens | ~$X.XX
-```
-
-**Rules:**
-- `---` separator ALWAYS precedes the footer
-- CC Engaged MUST have a full clickable GitHub issue URL — never bare `#123`
-- Get time with: `date "+%d.%m %H:%M"`
-- Pricing: opus=$15/1M, sonnet=$3/1M, flash=$0.60/1M
-
-*Last Updated: 2026-04-03*
